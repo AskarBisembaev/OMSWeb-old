@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7D6E27A1-4B4B-4EB3-8C72-64428EDE52E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMS", "src\OMS\OMS.csproj", "{9727CFD8-596E-4130-BA7C-1643E934E9CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMS.Api.Common", "src\OMS.Api.Common\OMS.Api.Common.csproj", "{777F1E0F-C998-43C8-A8E4-668FBBCCC55B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMS.Api.Models", "src\OMS.Api.Models\OMS.Api.Models.csproj", "{D2978BBE-A9D8-4B8C-9CD2-80907D42480F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMS.Data.Access", "src\OMS.Data.Access\OMS.Data.Access.csproj", "{D262F90D-4B39-4987-924F-03292DB21E94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMS.Data.Model", "src\OMS.Data.Model\OMS.Data.Model.csproj", "{7191F4AA-2276-4DF6-8C65-326F1AC283EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expenses.Queries", "src\Expenses.Queries\Expenses.Queries.csproj", "{0EFC8733-FC0F-40C8-96F3-978A0EDA080C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expenses.Security", "src\Expenses.Security\Expenses.Security.csproj", "{09F9BE30-E8C7-475A-9C79-0E5B8FFC64F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{CD3A7044-BF95-4030-9175-682F4A4D9258}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Soft\NorthwindSQLite\NorthwindSQLite.db = ..\..\..\Soft\NorthwindSQLite\NorthwindSQLite.db
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{77CAC6FE-16D0-48E3-B8CB-4D7557C6213A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Dowloads\toptal.com-Building an ASPNET Web API with ASPNET Core.pdf = ..\..\..\Dowloads\toptal.com-Building an ASPNET Web API with ASPNET Core.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9727CFD8-596E-4130-BA7C-1643E934E9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9727CFD8-596E-4130-BA7C-1643E934E9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9727CFD8-596E-4130-BA7C-1643E934E9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9727CFD8-596E-4130-BA7C-1643E934E9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{777F1E0F-C998-43C8-A8E4-668FBBCCC55B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777F1E0F-C998-43C8-A8E4-668FBBCCC55B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777F1E0F-C998-43C8-A8E4-668FBBCCC55B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777F1E0F-C998-43C8-A8E4-668FBBCCC55B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2978BBE-A9D8-4B8C-9CD2-80907D42480F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2978BBE-A9D8-4B8C-9CD2-80907D42480F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2978BBE-A9D8-4B8C-9CD2-80907D42480F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2978BBE-A9D8-4B8C-9CD2-80907D42480F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D262F90D-4B39-4987-924F-03292DB21E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D262F90D-4B39-4987-924F-03292DB21E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D262F90D-4B39-4987-924F-03292DB21E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D262F90D-4B39-4987-924F-03292DB21E94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7191F4AA-2276-4DF6-8C65-326F1AC283EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7191F4AA-2276-4DF6-8C65-326F1AC283EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7191F4AA-2276-4DF6-8C65-326F1AC283EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7191F4AA-2276-4DF6-8C65-326F1AC283EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFC8733-FC0F-40C8-96F3-978A0EDA080C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFC8733-FC0F-40C8-96F3-978A0EDA080C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFC8733-FC0F-40C8-96F3-978A0EDA080C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFC8733-FC0F-40C8-96F3-978A0EDA080C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F9BE30-E8C7-475A-9C79-0E5B8FFC64F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F9BE30-E8C7-475A-9C79-0E5B8FFC64F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F9BE30-E8C7-475A-9C79-0E5B8FFC64F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F9BE30-E8C7-475A-9C79-0E5B8FFC64F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9727CFD8-596E-4130-BA7C-1643E934E9CA} = {7D6E27A1-4B4B-4EB3-8C72-64428EDE52E0}
+		{777F1E0F-C998-43C8-A8E4-668FBBCCC55B} = {7D6E27A1-4B4B-4EB3-8C72-64428EDE52E0}
+		{D2978BBE-A9D8-4B8C-9CD2-80907D42480F} = {7D6E27A1-4B4B-4EB3-8C72-64428EDE52E0}
+		{D262F90D-4B39-4987-924F-03292DB21E94} = {7D6E27A1-4B4B-4EB3-8C72-64428EDE52E0}
+		{7191F4AA-2276-4DF6-8C65-326F1AC283EF} = {7D6E27A1-4B4B-4EB3-8C72-64428EDE52E0}
+		{0EFC8733-FC0F-40C8-96F3-978A0EDA080C} = {7D6E27A1-4B4B-4EB3-8C72-64428EDE52E0}
+		{09F9BE30-E8C7-475A-9C79-0E5B8FFC64F4} = {7D6E27A1-4B4B-4EB3-8C72-64428EDE52E0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99249B74-3B87-46A0-93C2-E47C69B4C97C}
+	EndGlobalSection
+EndGlobal
