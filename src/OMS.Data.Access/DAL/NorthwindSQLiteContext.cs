@@ -1,10 +1,12 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using OMS.Data.Model;
+using OMS.Data.Access.DAL;
 
 #nullable disable
 
-namespace OMS.Data.Model
+namespace OMS.Data.Access
 {
     public partial class NorthwindSQLiteContext : DbContext
     {
@@ -35,6 +37,14 @@ namespace OMS.Data.Model
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            var mappings = MappingsHelper.GetMainMappings();
+
+            foreach (var mapping in mappings)
+            {
+                mapping.Visit(modelBuilder);
+            }
+
+
             modelBuilder.Entity<Category>(entity =>
             {
                 entity.HasIndex(e => e.CategoryName, "Categories_CategoryName");

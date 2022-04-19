@@ -5,19 +5,19 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7D6E27A1-4B4B-4EB3-8C72-64428EDE52E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMS", "src\OMS\OMS.csproj", "{9727CFD8-596E-4130-BA7C-1643E934E9CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OMS", "src\OMS\OMS.csproj", "{9727CFD8-596E-4130-BA7C-1643E934E9CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMS.Api.Common", "src\OMS.Api.Common\OMS.Api.Common.csproj", "{777F1E0F-C998-43C8-A8E4-668FBBCCC55B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OMS.Api.Common", "src\OMS.Api.Common\OMS.Api.Common.csproj", "{777F1E0F-C998-43C8-A8E4-668FBBCCC55B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMS.Api.Models", "src\OMS.Api.Models\OMS.Api.Models.csproj", "{D2978BBE-A9D8-4B8C-9CD2-80907D42480F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OMS.Api.Models", "src\OMS.Api.Models\OMS.Api.Models.csproj", "{D2978BBE-A9D8-4B8C-9CD2-80907D42480F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMS.Data.Access", "src\OMS.Data.Access\OMS.Data.Access.csproj", "{D262F90D-4B39-4987-924F-03292DB21E94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OMS.Data.Access", "src\OMS.Data.Access\OMS.Data.Access.csproj", "{D262F90D-4B39-4987-924F-03292DB21E94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMS.Data.Model", "src\OMS.Data.Model\OMS.Data.Model.csproj", "{7191F4AA-2276-4DF6-8C65-326F1AC283EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OMS.Data.Model", "src\OMS.Data.Model\OMS.Data.Model.csproj", "{7191F4AA-2276-4DF6-8C65-326F1AC283EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expenses.Queries", "src\Expenses.Queries\Expenses.Queries.csproj", "{0EFC8733-FC0F-40C8-96F3-978A0EDA080C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OMS.Queries", "src\Expenses.Queries\OMS.Queries.csproj", "{0EFC8733-FC0F-40C8-96F3-978A0EDA080C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expenses.Security", "src\Expenses.Security\Expenses.Security.csproj", "{09F9BE30-E8C7-475A-9C79-0E5B8FFC64F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OMS.Security", "src\Expenses.Security\OMS.Security.csproj", "{09F9BE30-E8C7-475A-9C79-0E5B8FFC64F4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{CD3A7044-BF95-4030-9175-682F4A4D9258}"
 	ProjectSection(SolutionItems) = preProject
